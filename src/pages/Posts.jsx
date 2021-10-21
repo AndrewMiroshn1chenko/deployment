@@ -65,7 +65,7 @@ function Posts() {
         
       {isPostsLoading
       ? <div style={{display: 'flex', justifyContent: 'center', marginTop: 30}}><Loader/></div>
-      : <PostList remove={removePost} posts={sortedAndSearchedPosts} title="Such a big ass"/>
+      : <PostList remove={removePost} posts={sortedAndSearchedPosts} title="Such a cool React app"/>
       }
       <Pagination totalPages={totalPage} changePage={changePage} page={page}/>
     </div>
